@@ -12,6 +12,7 @@ namespace ReadInTrain
         private int _hour;
 
         #region constructors
+
         public LevelLight(int level, int hour)
         {
             _level = level;

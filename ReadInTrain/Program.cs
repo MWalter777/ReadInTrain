@@ -35,6 +35,9 @@ namespace ReadInTrain
                 }
             }
 
+            Console.WriteLine("");
+            Console.WriteLine("Nivel minimo de luz requerido: {0}", travel.levelMinForRead);
+
             if (hoursTotal >= hourReader)
             {
                 Console.WriteLine("Puedes leer las horas que seleccionaste, en total tienes {0} horas disponibles", hoursTotal);
